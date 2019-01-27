@@ -1,0 +1,30 @@
+{
+  "name": "next-redux-express-materialui-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/snjssk/next-redux-express-materialui-example.git",
+  "author": "<snjssk0403@gmail.come>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "next-redux-saga": "^3.0.0",
+    "next-redux-wrapper": "^2.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.0"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^3.9.0",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "redux-devtools-extension": "^2.13.7"
+  }
+}
